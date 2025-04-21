@@ -2,7 +2,7 @@
 
 This project automates the process of scraping product data from an e-commerce website, cleaning and structuring the data, generating reports, and emailing them via Power Automate.
 
-## 🚀 Features
+##  Features
 - Web scraping with **Selenium** and **BeautifulSoup**
 - Data cleaning and transformation using **Pandas**
 - Report generation in **CSV** and **HTML** formats
@@ -20,7 +20,7 @@ This project automates the process of scraping product data from an e-commerce w
 └── output/                # Contains raw and cleaned data, reports
 ```
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repo
 ```bash
@@ -38,14 +38,12 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
-## 📨 Automating Email Reports with Power Automate
+##  Automating Email Reports with Power Automate
 Use **Power Automate Desktop** to:
 1. Run `run_all.py` using the "Run Python Script" action
 2. Use "Send Email via Outlook" action to send `output/report.csv` and `output/report.html`
 
-## 📌 Notes
+##  Notes
 - Make sure you have **ChromeDriver** installed and it matches your Chrome version.
 - Reports are saved in the `output/` folder.
 
-## 📄 License
-This project is open source under the MIT License.
